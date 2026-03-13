@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Sora:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 6%;
+    --foreground: 30 10% 90%;
+
+    --card: 0 0% 10%;
+    --card-foreground: 30 10% 90%;
+
+    --popover: 0 0% 10%;
+    --popover-foreground: 30 10% 90%;
+
+    --primary: 24 95% 53%;
+    --primary-foreground: 0 0% 6%;
+
+    --secondary: 0 0% 14%;
+    --secondary-foreground: 30 10% 80%;
+
+    --muted: 0 0% 16%;
+    --muted-foreground: 0 0% 55%;
+
+    --accent: 30 90% 55%;
+    --accent-foreground: 0 0% 6%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 24 95% 53%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 30 10% 80%;
+    --sidebar-primary: 24 95% 53%;
+    --sidebar-primary-foreground: 0 0% 6%;
+    --sidebar-accent: 0 0% 14%;
+    --sidebar-accent-foreground: 30 10% 80%;
+    --sidebar-border: 0 0% 18%;
+    --sidebar-ring: 24 95% 53%;
+
+    --forge-ember: 24 95% 53%;
+    --forge-flame: 30 93% 60%;
+    --forge-coal: 0 0% 10%;
+    --forge-ash: 0 0% 55%;
+    --forge-steel: 0 0% 75%;
+    --forge-smoke: 0 0% 16%;
+
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-sans: 'Sora', sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: var(--font-sans);
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono) !important;
+  }
+}
+
+@layer utilities {
+  .forge-glow {
+    box-shadow: 0 0 20px hsl(24 95% 53% / 0.15), 0 0 60px hsl(24 95% 53% / 0.05);
+  }
+
+  .forge-border-glow {
+    border-color: hsl(24 95% 53% / 0.3);
+  }
+
+  .ember-gradient {
+    background: linear-gradient(135deg, hsl(24 95% 53%), hsl(30 93% 60%));
+  }
+
+  .text-ember-gradient {
+    background: linear-gradient(135deg, hsl(24 95% 53%), hsl(30 93% 60%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(0 0% 25%) transparent;
+  }
+}
