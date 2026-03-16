@@ -312,10 +312,7 @@ git checkout -b feature/your-feature-name
 git commit -m "feat: describe what you added"
 
 # 5. Push to your fork
-git push origin feature/your-feature-name
 
-# 6. Open a Pull Request on GitHub
-```
 
 Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting a PR. All PRs should include relevant tests.
 
@@ -339,7 +336,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 ## 👥 Team
 
-Bu
+
 
 ---
 
