@@ -297,7 +297,7 @@ promptforge/
 
 ## 🤝 Contributing
 
-Contributions are welcome and appreciated.
+Contributions are welcome and appreciated
 
 ```bash
 # 1. Fork the repo on GitHub
