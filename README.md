@@ -339,12 +339,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 ## 👥 Team
 
-Built in 48 hours at **FOSS Hackathon 2025** by:
-
-- [Your Name](https://github.com/yourusername) — Frontend
-- [Teammate 2](https://github.com/teammate2) — Backend & Auth
-- [Teammate 3](https://github.com/teammate3) — Database & Fork Logic
-- [Teammate 4](https://github.com/teammate4) — Infra & Deployment
+Bu
 
 ---
 
