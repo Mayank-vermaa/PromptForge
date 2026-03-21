@@ -341,5 +341,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 ---
 
 <p align="center">
-  If PromptForge helped you write a better prompt, give it a ⭐
+  If PromptForge helped you write a better prompt, give it a 
 </p>
